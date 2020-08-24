@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wed Web</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
+     <a class="navbar-brand" href="#">Home</a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link" href="#">Couple<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Story</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Attending</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"  id = "carouselId"> 
+          <div class="carousel-item active">
+            <img src="https://www.thecompleteweddingpackage.co.uk/wp-content/uploads/2018/08/hire-1200-x-630px.png" class="d-block w-100" alt="Loading">
+            <div class="carousel-caption d-none d-md-block">
+               <h1 style="font-family: 'Cedarville Cursive', cursive; " class="weds" >Prateek weds Bedre </h1> 
+              <h1>We welcome you to are wedding</h1>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.smashingtheglass.com/wp-content/uploads/2019/03/3-x-Facebook-Image-template-1200-x-630px.jpg" class="d-block w-100" alt="Loading">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Do join us</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://theweddingbrigade.s3.amazonaws.com/static/img/theweddingbrigade-cover.jpg" class="d-block w-100" alt="loading">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Be the part of memory</h1>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span1>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <div class="couple" style="font-family: 'Cedarville Cursive', cursive;">
+                <h1 class="text-center mt-3" >Happy Couple</h1>
+      </div>
+      <div class="container-fluid d-flex" >
+          <div class="row">
+            <div class="col-lg-6" id="groom">
+                    <div class="name text-center">
+                            <h1 style="font-family: 'Cedarville Cursive', cursive;" > 
+                                Prateek
+                            </h1>
+                    </div>
+                    <div class="img-container">
+                        <img src="https://previews.123rf.com/images/fouroaks/fouroaks1005/fouroaks100500004/6908024-young-black-man-with-dreadlocks-hairstyle-and-crazy-look-on-face.jpg" alt="Groom"  class="image " >
+                    </div>
+                    <p class = "text-center m-4"> 
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum sed quae incidunt quo nam adipisci expedita natus quod beatae. Mollitia, at. Soluta repellendus, explicabo optio quis laboriosam ullam esse enim quasi nesciunt sapiente veritatis, sit sequi a voluptatem eum eos aspernatur cum ipsum odio. Pariatur nesciunt atque accusantium sequi voluptates incidunt! Temporibus cum blanditiis odio placeat laudantium, quaerat eum tempora!
+                    </p>
+            </div>
+            <div class="col-lg-6" id="bride">
+                    <div class="name text-center">
+                        <h1 style="font-family: 'Cedarville Cursive', cursive;" > 
+                            Bedre
+                        </h1>
+                    </div>
+                    <div class="img-container">
+                        <img src="https://fsb.zobj.net/crop.php?r=JGGRokjKRtcEki4B_JwWegsG-xFDVmEWsNd1wr11GksxiouA-gW6GUAAueMl9P5jBjpBrG5sz4Z014IbvePSi8G29pZKOgle_7Ttt-i5yWWpCLQc0ei0Sj2Wwh8UP5psLFucu_HODmoR_Ppk" alt="Bride"  class="image" >
+                    </div>
+                    <p class = "text-center m-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo eligendi, similique eos nulla accusamus at reiciendis nam. Reprehenderit asperiores, excepturi placeat culpa labore quod sed illum error. Fugiat magnam fugit natus deserunt recusandae pariatur harum optio, ullam corrupti necessitatibus modi excepturi perspiciatis. Iure non a qui deserunt repellendus possimus facilis unde temporibus, ea soluta praesentium ullam, vero placeat perferendis!
+                    </p>
+                </div>
+          </div>
+     </div>
+    <div id="color" class="">
+     <div class="story" style="font-family: 'Cedarville Cursive', cursive;">
+        <h1 class="text-center " >Our Story</h1>
+     </div>
+        <div class="d-flex " id="story" >
+            <div class="" id="groom">
+                <div class="name text-right">
+                        <h1 style="font-family: 'Cedarville Cursive', cursive; "> 
+                            First Date
+                        </h1>
+                        <h3>30-feb-1857</h3>
+
+                </div>
+                <p class = "text-right ml-4"> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum sed quae incidunt quo nam adipisci expedita natus quod beatae. Mollitia, at. Soluta repellendus, explicabo optio quis laboriosam ullam esse enim quasi nesciunt sapiente veritatis, sit sequi a voluptatem eum eos aspernatur cum ipsum odio. Pariatur nesciunt atque accusantium sequi voluptates incidunt! Temporibus cum blanditiis odio placeat laudantium, quaerat eum tempora!
+                </p>
+                <div class="img-container " style="margin-left: 20%;" >
+                    <img src="https://cdn0.weddingwire.in/articles/images/9/0/9/0/img_40909/r10_2x_cute-proposal-kirandeepphotography-lead.jpg" alt="Bride"  class="image" >
+                </div>
+            </div>
+            <div class="m-3 justify-content-center " id="bride">
+                <img src="https://jantrajyotisha.com/wp-content/uploads/2018/09/happy-couple.jpg" alt="Bride"  class="image" >
+                <div class="name">
+                    <h1 style="font-family: 'Cedarville Cursive', cursive; "> 
+                        Proposal
+                    </h1>
+                    <h3>33-feb-2157</h3>
+                </div>
+                <p class = "text-center mr-4">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo eligendi, similique eos nulla accusamus at reiciendis nam. Reprehenderit asperiores, excepturi placeat culpa labore quod sed illum error. Fugiat magnam fugit natus deserunt recusandae pariatur harum optio, ullam corrupti necessitatibus modi excepturi perspiciatis. Iure non a qui deserunt repellendus possimus facilis unde temporibus, ea soluta praesentium ullam, vero placeat perferendis!
+                </p>
+            </div>
+        </div>
+    </div>      
+
+    <div id="colorEvents">
+        <div class="story" style="font-family: 'Cedarville Cursive', cursive;">
+           <h1 class="text-center " >Events</h1>
+        </div>
+           <div class="d-flex " id="story" >
+               <div class="" id="groom">
+                   <div class="name text-right">
+                           <h1 style="font-family: 'Cedarville Cursive', cursive; "> 
+                               Engagement
+                           </h1>
+                           <h3>14-feb-3010</h3>
+   
+                   </div>
+                   <p class = "text-right mr-3 ml-4"> 
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur quas ea voluptates voluptatem, reiciendis at numquam alias incidunt perspiciatis dolorum aliquam aliquid commodi illum voluptatibus eos, praesentium, quam in id odit sapiente aperiam. Odit accusantium cum quis ab et
+                   </p>
+                   <div class="img-container justify-content-center ">
+                       <img src="https://static01.nyt.com/images/2018/01/21/fashion/21bling-side/21bling-side-jumbo-v2.jpg" alt="Bride"  class="image card" >
+                   </div>
+               </div>
+               <div class="img-container justify-content-center" id="bride">
+                   <img src="https://cdn0.weddingwire.in/articles/images/5/6/2/1/img_31265/r10_2x_online-marriage-registration-in-up-taj-studio-lead.jpg" alt="Bride"  class="image card " >
+                   <div class="name">
+                       <h1 style="font-family: 'Cedarville Cursive', cursive; "> 
+                           Marriage
+                       </h1>
+                       <h3>21-dec-2132</h3>
+                   </div>
+                   <p class = "text-center mr-4">
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis, id illo maxime quaerat amet quasi odio aperiam quas corporis facere ratione saepe laboriosam, accusamus nesciunt. Rerum in iste mollitia dolorum sunt. Ab quia dolores dolor tempora! Architecto expedita provident maxime voluptates mollitia reiciendis, dignissimos rem consequatur id dicta iusto fugit, quisquam adipisci 
+                   </p>
+               </div>
+           </div>
+       </div>     
+
+       <div class="attendingColor">
+       <div class="story " style="font-family: 'Cedarville Cursive', cursive;">
+        <h1 class="text-center " >Attending</h1>
+     </div>
+       <div class="attending container-fluid">
+           <div class="row">
+             <div class="card text-center col-md-6  col-xl-3 " style="width:auto;">
+                <div class="card-body">
+                <h5 class="card-title">Saurabh</h5>
+                <img src="https://thumbs.dreamstime.com/b/handsome-young-man-portrait-intense-look-eye-catching-beauty-fashionable-hair-beard-wearing-white-shirt-132578103.jpg" style="height: 100%; width: 100%;"alt="">
+                
+                </div>
+                <div class="socialHandles d-flex justify-content-around">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            
+            <div class="card text-center col-md-6  col-xl-3" style="width: auto">
+                <div class="card-body">
+                <h5 class="card-title">Deep</h5>
+                <img src="https://m.media-amazon.com/images/M/MV5BYTU5ZWJhZDctNGZlOS00NjRjLWFiNGMtNDU0NmIwNTM1Y2ViXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY1200_CR85,0,630,1200_AL_.jpg" style="height: 100%; width: 100%;"alt="">
+                </div>
+                <div class="socialHandles d-flex justify-content-around">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            
+            <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
+                <div class="card-body">
+                <h5 class="card-title">Tejas</h5>
+                <img src="https://bfwain.files.wordpress.com/2016/02/o-shahid-kapoor-facebook.jpg?w=640" style="height: 100%; width: 100%;"alt="">
+                </div>
+                <div class="socialHandles d-flex justify-content-around">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
+                <div class="card-body img-fluid">
+                <h5 class="card-title">Rutik</h5>
+                <img src="https://img.mensxp.com/media/content/2020/Jun/bollywood-actors-replacing-other-bollywood-actors-in-films-1200x900_5ed62bfff2e52_1200x900.jpeg" style="height: 100%; width: 100%;" alt="">
+                </div>
+                <div class="socialHandles d-flex justify-content-around">
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card text-center col-md-6  col-xl-3 " style="width:auto;">
+              <div class="card-body">
+              <h5 class="card-title">Saurabh</h5>
+              <img src="https://thumbs.dreamstime.com/b/handsome-young-man-portrait-intense-look-eye-catching-beauty-fashionable-hair-beard-wearing-white-shirt-132578103.jpg" style="height: 100%; width: 100%;"alt="">
+              
+              </div>
+              <div class="socialHandles d-flex justify-content-around">
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          
+          <div class="card text-center col-md-6  col-xl-3" style="width: auto">
+              <div class="card-body">
+              <h5 class="card-title">Deep</h5>
+              <img src="https://m.media-amazon.com/images/M/MV5BYTU5ZWJhZDctNGZlOS00NjRjLWFiNGMtNDU0NmIwNTM1Y2ViXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY1200_CR85,0,630,1200_AL_.jpg" style="height: 100%; width: 100%;"alt="">
+              </div>
+              <div class="socialHandles d-flex justify-content-around">
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          
+          <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
+              <div class="card-body">
+              <h5 class="card-title">Tejas</h5>
+              <img src="https://bfwain.files.wordpress.com/2016/02/o-shahid-kapoor-facebook.jpg?w=640" style="height: 100%; width: 100%;"alt="">
+              </div>
+              <div class="socialHandles d-flex justify-content-around">
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+          <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
+              <div class="card-body img-fluid">
+              <h5 class="card-title">Rutik</h5>
+              <img src="https://img.mensxp.com/media/content/2020/Jun/bollywood-actors-replacing-other-bollywood-actors-in-films-1200x900_5ed62bfff2e52_1200x900.jpeg" style="height: 100%; width: 100%;" alt="">
+              </div>
+              <div class="socialHandles d-flex justify-content-around">
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+          </div>
+
+
+           </div>
+
+          
+          
+       </div> 
+      </div>
+      <div class="invitationColor">
+        <div class="invitation text-center " style="font-family: 'Cedarville Cursive', cursive;">
+          <h1 class="" >You too are Invited</h1>
+          <p style="font-size: xx-large; color:fuchsia;" >  Please fill up the following details</p>
+        </div> 
+
+        <form style=" padding-bottom: 3%; " >
+          <div class="d-flex justify-content-around m-4 p-4">
+            <input type="text" placeholder="Name" required style="width: 30%;" >
+            <input type="email" name="" id="" placeholder="Email" required style="width: 30%;">
+          </div>
+           <div class="d-flex justify-content-around m-4">
+            <input type="number" placeholder="No of Guests" min="1" max="10"  style="width: 40%;">
+           </div>
+           <div class="d-flex justify-content-around m-4" >
+            <textarea name="" id="" placeholder="Please give us blessings through your sweet words"  cols="30" rows="10" style="width: 80%;"></textarea>
+           </div>
+           <button type="button" class="btn btn-warning " style="margin-left: 45%;  " >Send</button>
+          </form>
+
+          <div class="last">
+            <img src="https://st1.latestly.com/wp-content/uploads/2019/11/indian-wedding.jpg" style="width: 100%; margin-top: 4%; "  alt="">
+        </div>
+      </div>
+      <p class="thanks" style="font-family: 'Cedarville Cursive', cursive;  margin-left: 35%;" >  Thank You</p>
+      
+      <footer style="margin-left: 27%;"> If You want to create such web invitation for yourself or gift it to a friend please contact at nahibanega@gmail.com </footer>
+      <footer style="margin-left: 40% ;"> &copy; All rights are reserved by thesdtiwari </footer>
+</body>
+</html>

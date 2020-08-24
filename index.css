@@ -1,0 +1,104 @@
+.weds{
+    color: red;
+    font-size: xx-large;
+}
+
+
+.couple h1, .story h1 ,.invitation h1 , .thanks{
+
+    color: red;
+    font-size: 108px;
+}
+
+#bride{
+    width: 50%;
+}
+
+#groom{
+    width:50%;
+}
+
+.image{
+    border-radius: 50%;
+    border-width: 25px;
+    border-color:rgba(255, 105, 180, 0.644);
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+body{
+    background-color: pink;
+}
+.name h1{
+    font-size: 100px;
+}
+@media screen and (max-width: 992px) {
+    .name h1{
+        font-size: 60px;
+    }
+    .weds{
+        color: brown;
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .name h1{
+        font-size: 50px;
+    }
+    .weds{
+        color: brown;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .name h1{
+        font-size: 35px;
+    }
+    .weds{
+        color: brown;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .couple h1, .story h1 .invitation h1, .thanks{
+
+        color: red;
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .couple h1, .story h1, .invitation h1, .thanks{
+
+        color: red;
+        font-size: 40px;
+    }
+}
+
+
+
+#color{
+    background-color: blueviolet;
+}
+
+#colorEvents{
+    background-color: peru;
+}
+
+.attending{
+    background-color: greenyellow;
+}
+
+.invitationColor {
+    background-color: mediumblue;
+}
+
+form{
+ background-color: mintcream;
+ width: 60%;
+ margin: auto;
+}
+
