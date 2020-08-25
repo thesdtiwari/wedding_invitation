@@ -7,6 +7,8 @@
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
+    <script src="https://kit.fontawesome.com/acc49c14dc.js" crossorigin="anonymous"></script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -15,43 +17,34 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light  fixed-top">
-     <a class="navbar-brand" href="#">Home</a> 
+    <nav class="navbar  navbar-expand-lg navbar-light bg-light  fixed-top" id="navbar" >
+     <a class="navbar-brand " href="#carouselId" style="font-weight: lighter;" >Home</a> 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button> 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item ">
-              <a class="nav-link" href="#">Couple<span class="sr-only">(current)</span></a>
+              <a class="nav-link " href="#couple">Couple</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Story</a>
+              <a class="nav-link" href="#color">Story</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Events</a>
+              <a class="nav-link" href="#colorEvents">Events</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Attending</a>
+                <a class="nav-link" href="#attendingColor">Attending</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#card">Card</a>
             </li>
             
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
+            
           </ul>
         </div>
       </nav>
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" id="Home" >
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -61,7 +54,7 @@
           <div class="carousel-item active">
             <img src="https://www.thecompleteweddingpackage.co.uk/wp-content/uploads/2018/08/hire-1200-x-630px.png" class="d-block w-100" alt="Loading">
             <div class="carousel-caption d-none d-md-block">
-               <h1 style="font-family: 'Cedarville Cursive', cursive; " class="weds" >Prateek weds Bedre </h1> 
+               <h1 style="font-family: 'Cedarville Cursive', cursive;  " class="weds" > Sayak weds Dravisha </h1> 
               <h1>We welcome you to are wedding</h1>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
@@ -91,19 +84,19 @@
         </a>
       </div>
 
-      <div class="couple" style="font-family: 'Cedarville Cursive', cursive;">
-                <h1 class="text-center mt-3" >Happy Couple</h1>
+      <div class="couple" style="font-family: 'Cedarville Cursive', cursive;" id= "couple">
+                <h1 class="text-center " style="margin-top: 50px; margin-bottom: 50px;" >Happy Couple</h1>
       </div>
-      <div class="container-fluid d-flex" >
+      <div class="container-fluid d-flex  " >
           <div class="row">
             <div class="col-lg-6" id="groom">
                     <div class="name text-center">
                             <h1 style="font-family: 'Cedarville Cursive', cursive;" > 
-                                Prateek
+                                Sayak
                             </h1>
                     </div>
-                    <div class="img-container">
-                        <img src="https://previews.123rf.com/images/fouroaks/fouroaks1005/fouroaks100500004/6908024-young-black-man-with-dreadlocks-hairstyle-and-crazy-look-on-face.jpg" alt="Groom"  class="image " >
+                    <div class="img-container ">
+                        <img src="https://www.teahub.io/photos/full/171-1712515_adorable-cream-sherwani-set-cream-sherwani.jpg" alt="Groom"  class="image m-4" >
                     </div>
                     <p class = "text-center m-4"> 
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum sed quae incidunt quo nam adipisci expedita natus quod beatae. Mollitia, at. Soluta repellendus, explicabo optio quis laboriosam ullam esse enim quasi nesciunt sapiente veritatis, sit sequi a voluptatem eum eos aspernatur cum ipsum odio. Pariatur nesciunt atque accusantium sequi voluptates incidunt! Temporibus cum blanditiis odio placeat laudantium, quaerat eum tempora!
@@ -112,11 +105,11 @@
             <div class="col-lg-6" id="bride">
                     <div class="name text-center">
                         <h1 style="font-family: 'Cedarville Cursive', cursive;" > 
-                            Bedre
+                            Dravisha
                         </h1>
                     </div>
                     <div class="img-container">
-                        <img src="https://fsb.zobj.net/crop.php?r=JGGRokjKRtcEki4B_JwWegsG-xFDVmEWsNd1wr11GksxiouA-gW6GUAAueMl9P5jBjpBrG5sz4Z014IbvePSi8G29pZKOgle_7Ttt-i5yWWpCLQc0ei0Sj2Wwh8UP5psLFucu_HODmoR_Ppk" alt="Bride"  class="image" >
+                        <img src="https://www.teahub.io/photos/full/171-1711792_beautiful-ethnic-rani-pink-bridal-lehenga-alia-bhatt.jpg" alt="Bride"  class="image ml-5 mt-5" >
                     </div>
                     <p class = "text-center m-4">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita nemo eligendi, similique eos nulla accusamus at reiciendis nam. Reprehenderit asperiores, excepturi placeat culpa labore quod sed illum error. Fugiat magnam fugit natus deserunt recusandae pariatur harum optio, ullam corrupti necessitatibus modi excepturi perspiciatis. Iure non a qui deserunt repellendus possimus facilis unde temporibus, ea soluta praesentium ullam, vero placeat perferendis!
@@ -124,7 +117,7 @@
                 </div>
           </div>
      </div>
-    <div id="color" class="">
+    <div id="color" class="p-5">
      <div class="story" style="font-family: 'Cedarville Cursive', cursive;">
         <h1 class="text-center " >Our Story</h1>
      </div>
@@ -159,7 +152,7 @@
         </div>
     </div>      
 
-    <div id="colorEvents">
+    <div id="colorEvents" class="p-5">
         <div class="story" style="font-family: 'Cedarville Cursive', cursive;">
            <h1 class="text-center " >Events</h1>
         </div>
@@ -194,106 +187,106 @@
            </div>
        </div>     
 
-       <div class="attendingColor">
+       <div class="attendingColor mt-5" id = "attendingColor">
        <div class="story " style="font-family: 'Cedarville Cursive', cursive;">
-        <h1 class="text-center " >Attending</h1>
+        <h1 class="text-center mb-5" >Attending</h1>
      </div>
        <div class="attending container-fluid">
            <div class="row">
              <div class="card text-center col-md-6  col-xl-3 " style="width:auto;">
                 <div class="card-body">
-                <h5 class="card-title">Saurabh</h5>
-                <img src="https://thumbs.dreamstime.com/b/handsome-young-man-portrait-intense-look-eye-catching-beauty-fashionable-hair-beard-wearing-white-shirt-132578103.jpg" style="height: 100%; width: 100%;"alt="">
+                <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; " >Saurabh</h5>
+                <img src="https://images.unsplash.com/photo-1519764622345-23439dd774f7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" style="height: 100%; width: 100%;"alt="">
                 
                 </div>
                 <div class="socialHandles d-flex justify-content-around">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
                 </div>
             </div>
             
             <div class="card text-center col-md-6  col-xl-3" style="width: auto">
                 <div class="card-body">
-                <h5 class="card-title">Deep</h5>
+                <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Deep</h5>
                 <img src="https://m.media-amazon.com/images/M/MV5BYTU5ZWJhZDctNGZlOS00NjRjLWFiNGMtNDU0NmIwNTM1Y2ViXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY1200_CR85,0,630,1200_AL_.jpg" style="height: 100%; width: 100%;"alt="">
                 </div>
                 <div class="socialHandles d-flex justify-content-around">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+              </div>
             </div>
             
             <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
                 <div class="card-body">
-                <h5 class="card-title">Tejas</h5>
-                <img src="https://bfwain.files.wordpress.com/2016/02/o-shahid-kapoor-facebook.jpg?w=640" style="height: 100%; width: 100%;"alt="">
+                <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Tejas</h5>
+                <img src="https://i.pinimg.com/originals/82/30/b3/8230b3e601bd66e593423e8004058d84.jpg" style="height: 100%; width: 100%;"alt="">
                 </div>
                 <div class="socialHandles d-flex justify-content-around">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+              </div>
             </div>
             <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
                 <div class="card-body img-fluid">
-                <h5 class="card-title">Rutik</h5>
-                <img src="https://img.mensxp.com/media/content/2020/Jun/bollywood-actors-replacing-other-bollywood-actors-in-films-1200x900_5ed62bfff2e52_1200x900.jpeg" style="height: 100%; width: 100%;" alt="">
+                <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Rutik</h5>
+                <img src="https://i.pinimg.com/originals/4b/3d/31/4b3d31c8f98ba6a4d0aef95ba47ebc3a.jpg" style="height: 100%; width: 100%;" alt="">
                 </div>
                 <div class="socialHandles d-flex justify-content-around">
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                  <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+              </div>
             </div>
 
             <div class="card text-center col-md-6  col-xl-3 " style="width:auto;">
               <div class="card-body">
-              <h5 class="card-title">Saurabh</h5>
-              <img src="https://thumbs.dreamstime.com/b/handsome-young-man-portrait-intense-look-eye-catching-beauty-fashionable-hair-beard-wearing-white-shirt-132578103.jpg" style="height: 100%; width: 100%;"alt="">
+              <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Surbhi</h5>
+              <img src="https://1.bp.blogspot.com/-grvmI0Iq-xo/Xk1X8Rz2lHI/AAAAAAAAdOQ/tnavhVVjuioivKbwpuNbNiLPx-NBkinsQCLcBGAsYHQ/s1600/Most%2BBeautiful%2B%2BFacebook%2BGirl%2BDP%2B2020%2B%25282%2529.jpg" style="height: 100%; width: 100%;"alt="">
               
               </div>
               <div class="socialHandles d-flex justify-content-around">
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
           
           <div class="card text-center col-md-6  col-xl-3" style="width: auto">
               <div class="card-body">
-              <h5 class="card-title">Deep</h5>
-              <img src="https://m.media-amazon.com/images/M/MV5BYTU5ZWJhZDctNGZlOS00NjRjLWFiNGMtNDU0NmIwNTM1Y2ViXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_UY1200_CR85,0,630,1200_AL_.jpg" style="height: 100%; width: 100%;"alt="">
+              <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Deepika</h5>
+              <img src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/000/994/879/new_large/sabyasa.jpg?1564040435" style="height: 100%; width: 100%;"alt="">
               </div>
               <div class="socialHandles d-flex justify-content-around">
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
           
           <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
               <div class="card-body">
-              <h5 class="card-title">Tejas</h5>
-              <img src="https://bfwain.files.wordpress.com/2016/02/o-shahid-kapoor-facebook.jpg?w=640" style="height: 100%; width: 100%;"alt="">
+              <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Kavisha</h5>
+              <img src="https://m.media-amazon.com/images/M/MV5BMjBlMDliZmYtZTUyNC00ZDUyLTk2MTUtY2VkNmE0ZTkwZjUzXkEyXkFqcGdeQXVyMzgyNjYzMzY@._V1_.jpg" style="height: 100%; width: 100%;"alt="">
               </div>
               <div class="socialHandles d-flex justify-content-around">
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
           <div class="card text-center col-md-6  col-xl-3 " style="width: auto;">
               <div class="card-body img-fluid">
-              <h5 class="card-title">Rutik</h5>
-              <img src="https://img.mensxp.com/media/content/2020/Jun/bollywood-actors-replacing-other-bollywood-actors-in-films-1200x900_5ed62bfff2e52_1200x900.jpeg" style="height: 100%; width: 100%;" alt="">
+              <h5 class="card-title"style="font-family: 'Cedarville Cursive', cursive; ">Amanda</h5>
+              <img src="https://m.media-amazon.com/images/M/MV5BMjA2NTA4OTI2NV5BMl5BanBnXkFtZTgwOTQxNjI4ODE@._V1_.jpg" style="height: 100%; width: 100%;" alt="">
               </div>
               <div class="socialHandles d-flex justify-content-around">
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-facebook"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;" ><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-warning" style="width: 15%;"><i class="fab fa-twitter"></i></a>
+            </div>
           </div>
 
 
@@ -303,13 +296,13 @@
           
        </div> 
       </div>
-      <div class="invitationColor">
+      <div class="invitationColor " style="height: 100% ;" >    
         <div class="invitation text-center " style="font-family: 'Cedarville Cursive', cursive;">
-          <h1 class="" >You too are Invited</h1>
+          <h1 class="mt-5 pt-5" >You too are Invited</h1>
           <p style="font-size: xx-large; color:fuchsia;" >  Please fill up the following details</p>
         </div> 
 
-        <form style=" padding-bottom: 3%; " >
+        <form style=" padding-bottom: 3%; margin-top: 5%;" class="mb-5 ">
           <div class="d-flex justify-content-around m-4 p-4">
             <input type="text" placeholder="Name" required style="width: 30%;" >
             <input type="email" name="" id="" placeholder="Email" required style="width: 30%;">
@@ -320,16 +313,18 @@
            <div class="d-flex justify-content-around m-4" >
             <textarea name="" id="" placeholder="Please give us blessings through your sweet words"  cols="30" rows="10" style="width: 80%;"></textarea>
            </div>
-           <button type="button" class="btn btn-warning " style="margin-left: 45%;  " >Send</button>
+           <button type="button" class="btn send-btn" style="margin-left: 45%;  " >Send</button>
           </form>
 
           <div class="last">
-            <img src="https://st1.latestly.com/wp-content/uploads/2019/11/indian-wedding.jpg" style="width: 100%; margin-top: 4%; "  alt="">
+            <img src="https://st1.latestly.com/wp-content/uploads/2019/11/indian-wedding.jpg" style="width: 100%; margin-top: 4%; " id="card" alt="">
         </div>
       </div>
       <p class="thanks" style="font-family: 'Cedarville Cursive', cursive;  margin-left: 35%;" >  Thank You</p>
       
       <footer style="margin-left: 27%;"> If You want to create such web invitation for yourself or gift it to a friend please contact at nahibanega@gmail.com </footer>
-      <footer style="margin-left: 40% ;"> &copy; All rights are reserved by thesdtiwari </footer>
+      <footer style="margin-left: 40% ; margin-bottom: 2%;" class="mb-4"> &copy; All rights are reserved by thesdtiwari </footer>
+
+      <script src="index.js"   ></script>
 </body>
 </html>

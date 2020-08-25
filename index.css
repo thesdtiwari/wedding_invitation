@@ -39,8 +39,8 @@ body{
         font-size: 60px;
     }
     .weds{
-        color: brown;
-        font-size: 60px;
+
+        font-size: x-large;
     }
 }
 @media screen and (max-width: 768px) {
@@ -48,8 +48,8 @@ body{
         font-size: 50px;
     }
     .weds{
-        color: brown;
-        font-size: 20px;
+        
+        font-size: x-small;
     }
 }
 @media screen and (max-width: 576px) {
@@ -57,8 +57,8 @@ body{
         font-size: 35px;
     }
     .weds{
-        color: brown;
-        font-size: 10px;
+        
+        font-size: xx-small;
     }
 }
 
@@ -68,6 +68,10 @@ body{
         color: red;
         font-size: 70px;
     }
+    .weds{
+        
+        font-size: xx-small;
+    }
 }
 
 @media screen and (max-width: 576px){
@@ -75,6 +79,10 @@ body{
 
         color: red;
         font-size: 40px;
+    }
+    .weds{
+        
+        font-size: xx-small;
     }
 }
 
@@ -93,12 +101,26 @@ body{
 }
 
 .invitationColor {
-    background-color: mediumblue;
+    background-color: blueviolet;
+
 }
 
 form{
- background-color: mintcream;
+    background-color: rgb(184, 114, 44);
+
  width: 60%;
  margin: auto;
 }
 
+.send-btn {
+    background-color: blueviolet;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.send-btn:hover {
+    background-color: rgb(134, 74, 190);
+}
+
+.card{
+    background-color: pink;
+}
